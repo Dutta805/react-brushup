@@ -6,6 +6,7 @@ import LifeCycleFunction from './LifeCycleFunction/LifeCycleFunction';
 import LazyLoadingComponent from './LazyLoadingComponent/LazyLoadingComponent';
 import Counter from './Counter/Counter';
 import Pagination from './Pagination/Pagination';
+import Caching from './Caching/Caching';
 
 export default function AppRouter() {
   return (
@@ -28,6 +29,9 @@ export default function AppRouter() {
                     <li>
                         <Link to="/Ques6" >Ques6</Link>
                     </li>
+                    <li>
+                        <Link to="/Ques7" >Ques7</Link>
+                    </li>
                 </ul>
             </nav>
             <hr />
@@ -38,6 +42,7 @@ export default function AppRouter() {
                 <Route exact path='/Ques3' Component={LazyLoadingComponent} />
                 <Route exact path='/Ques5' Component={Counter} />
                 <Route exact path='/Ques6' Component={Pagination} />
+                <Route exact path='/Ques7' Component={Caching} />
             </Routes>
         </div>
     </Router>
