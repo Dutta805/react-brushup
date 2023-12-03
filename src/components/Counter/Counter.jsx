@@ -13,3 +13,9 @@ export default function Counter() {
     </div>
   )
 }
+
+
+//we can create Actions folder where we will define the actions
+//reducers folder to define our reducers //can set the default state there
+//selectors folder to map the default state of reducer
+//constants folder where we can declare the action types
