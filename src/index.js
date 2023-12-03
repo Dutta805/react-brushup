@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 //import LifeCycle from './components/LifeCycle/LifeCycle';
-import LifeCycleFunction from './components/LifeCycleFunction/LifeCycleFunction';
+// import LifeCycleFunction from './components/LifeCycleFunction/LifeCycleFunction';
+import LazyLoadingComponent from './components/LazyLoadingComponent/LazyLoadingComponent';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LifeCycleFunction />
+    <LazyLoadingComponent />
   </React.StrictMode>
 );
 
